@@ -41,11 +41,10 @@
 
 <script>
 import vProduct from './components/v-product'
-
-
 import {mapGetters, mapActions} from 'vuex'
 
 export default {
+    name: 'App',
     data () {
         return {
           product: 1

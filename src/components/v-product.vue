@@ -49,6 +49,7 @@ import vProductInfo from './v-product-info'
 
 
 export default {
+    name: 'v-product',
     props: ['productItem', 'productArray'],
     components: {
         vCounter,
@@ -74,7 +75,6 @@ export default {
         minValueProduct: (vm) => vm.product <= 1,
         computedSrc0: (vm) => vm.srcModificated.splice(-1,1, '_220x220_1.jpg'),
         computedSrc2: (vm) => vm.srcModificated.join('/')
-        // computedSrc: (vm) => vm.srcModificated.splice(-1, 1, '_220x220_1.jpg'),
     }
     
 }

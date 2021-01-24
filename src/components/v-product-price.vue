@@ -50,6 +50,7 @@
 
 <script>
 export default {
+    name: 'v-product-price',
     data () {
         return {
             isSelectOne: true,

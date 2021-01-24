@@ -28,6 +28,7 @@ import vProductPrice from './v-product-price'
 
 
 export default {
+    name: 'v-product-info',
     props: ['productItem'],
     components: {
         vProductPrice
